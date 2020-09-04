@@ -178,7 +178,7 @@
   }
 
   .carousel-indicators {
-    top: 30%;
+    top: 31%;
   }
   .carousel-control-next,
   .carousel-control-prev {
@@ -188,14 +188,16 @@
 
 @media screen and (max-width: 400px) {
   .phoneGrid {
-    grid-template-columns: 15em;
-    grid-template-rows: 10em 12em auto;
+    grid-template-columns: 17em;
+    grid-template-rows: 9em 12em auto;
     grid-gap: 0;
+    padding: 2rem;
   }
 
   .carousel-indicators {
-    top: 35%;
+    top: 26rem;
   }
+
   .carousel-control-next,
   .carousel-control-prev {
     bottom: 92.5%;
