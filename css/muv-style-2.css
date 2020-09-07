@@ -434,8 +434,7 @@
   align-items: center;
 } */
 
-#vehicle_half_grid img,
-.half_grid img {
+#vehicle_half_grid img {
   width: 100%;
   height: auto;
 }
@@ -906,11 +905,6 @@
     text-align: left;
   }
 
-  .half_grid img {
-    width: 80%;
-    height: auto;
-  }
-
   .grid_title {
     margin-top: 5.5rem;
   }
@@ -1137,8 +1131,7 @@
     border-radius: 16px 0 0px 16px;
   }
 
-  #how_does_section_right img,
-  #ceo_message_right img {
+  #how_does_section_right img {
     width: 100%;
   }
 
