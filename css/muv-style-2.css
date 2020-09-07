@@ -434,7 +434,8 @@
   align-items: center;
 } */
 
-#vehicle_half_grid img {
+#vehicle_half_grid img,
+.half_grid img {
   width: 100%;
   height: auto;
 }
@@ -905,6 +906,10 @@
     text-align: left;
   }
 
+  /* .half_grid img {
+    width: 80%;
+  } */
+
   .grid_title {
     margin-top: 5.5rem;
   }
@@ -934,6 +939,7 @@
     grid-column: 1;
     grid-row: 1;
   }
+
   #how_work_right,
   #how_work_left2 {
     justify-self: center;
@@ -962,7 +968,6 @@
   #how_work_right2 {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 30px;
   }
 
   #how_work_left,
@@ -1131,7 +1136,8 @@
     border-radius: 16px 0 0px 16px;
   }
 
-  #how_does_section_right img {
+  #how_does_section_right img,
+  #ceo_message_right img {
     width: 100%;
   }
 
