@@ -344,7 +344,7 @@
   display: grid;
   grid-template-rows: auto;
   grid-gap: 5px;
-  
+
   justify-content: center;
   align-content: center;
 }
