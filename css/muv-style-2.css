@@ -963,8 +963,10 @@
   #ceo_message_right {
     justify-self: center;
     align-self: center;
-    text-align: left;
+    text-align: center;
+    object-fit: contain;
   }
+
   #how_does_section_left,
   #how_work_left,
   #how_work_right2 {
@@ -989,8 +991,7 @@
     margin-top: 0;
   }
 
-  #how_does_section_right img,
-  #ceo_message_right {
+  #how_does_section_right img {
     width: 80%;
   }
 
