@@ -943,7 +943,6 @@
     justify-self: center;
     align-self: center;
     text-align: center;
-    margin-top: 1.5rem;
   }
 
   #how_work_left img {
@@ -999,8 +998,7 @@
     height: 150px;
   }
 
-  #form_grid,
-  #delivery_buttons {
+  #form_grid {
     display: block;
   }
 
@@ -1038,6 +1036,11 @@
 
   .earnings_paragraph2 {
     font-size: 1.5rem;
+  }
+
+  #delivery_buttons {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
