@@ -434,7 +434,8 @@
   align-items: center;
 } */
 
-#vehicle_half_grid img {
+#vehicle_half_grid img,
+.half_grid img {
   width: 100%;
   height: auto;
 }
@@ -945,10 +946,13 @@
     text-align: center;
   }
 
-  #how_work_left img {
+  #how_work_left img,
+  #how_work_left2 img,
+  #how_work_right img {
     justify-self: center;
     align-self: center;
   }
+
   #how_does_section_right {
     justify-self: flex-start;
     align-self: flex-start;
