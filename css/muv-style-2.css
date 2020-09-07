@@ -898,7 +898,7 @@
 
 @media screen and (max-width: 768px) {
   .half_grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-content: center;
@@ -906,9 +906,10 @@
     text-align: left;
   }
 
-  /* .half_grid img {
+  .half_grid img {
     width: 80%;
-  } */
+    height: auto;
+  }
 
   .grid_title {
     margin-top: 5.5rem;
